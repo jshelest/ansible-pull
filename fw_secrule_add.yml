@@ -8,7 +8,7 @@
 
   tasks:
   - name: Grab the credentials from ansible-vault
-    include_vars: 'firewall-secrets.yml'
+    include_vars: 'vars.yml'
     no_log: 'yes'
 
   - name: Add test rule 1 to the firewall
