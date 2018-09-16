@@ -1,0 +1,2 @@
+rm -rf /tmp/ansible-pull
+watch -n 5 "ansible-pull -o -d /tmp/ansible-pull -U https://github.com/jshelest//ansible-pull.git"
